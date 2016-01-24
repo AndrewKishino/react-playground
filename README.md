@@ -1,4 +1,4 @@
-## React Template
+## React Template [![Build Status](https://travis-ci.org/AndrewKishino/react-playground.svg?branch=master)](https://travis-ci.org/AndrewKishino/react-playground)
 
 ### Getting Started
 

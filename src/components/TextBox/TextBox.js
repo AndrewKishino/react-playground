@@ -17,8 +17,10 @@ class TextBox extends Component {
     return (
       <div className={s.root}>
         {this.props.maxLines > 1 ?
-          <textarea {...this.props} className={s.input} ref="input" key="input" rows={this.props.maxLines} /> :
+          /* eslint-disable max-len */
+          <textarea {...this.props} className={s.input} ref="input" key="input" rows={this.props.maxLines}/> :
           <input {...this.props} className={s.input} ref="input" key="input" />}
+          /* eslint-enable max-len */
       </div>
     );
   }
